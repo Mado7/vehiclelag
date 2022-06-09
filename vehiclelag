@@ -1,0 +1,74 @@
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Brookhaven Lag By Mado#6885",
+Text = "If u have Problem With the Script Pld dm Mado#6885", 
+
+Duration = 30 
+})
+wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "⚠️This Script May Lag Your Phone a little bit⚠️",
+Text = "Vehicle Lag Enabled", 
+
+Duration = 30 
+})
+wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Warning",
+Text = "If u want to stop the Lag Please Rejoin", 
+
+Duration = 30 
+})
+wait(1)
+_G.loop = true 
+
+while _G.loop == true do
+wait(0.1)
+local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").Ree:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "Scooter"
+}
+
+game:GetService("ReplicatedStorage").Ree:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "WheelChair"
+}
+
+game:GetService("ReplicatedStorage").Ree:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "SkateBoard"
+}
+
+game:GetService("ReplicatedStorage").Ree:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "Scooter"
+}
+
+game:GetService("ReplicatedStorage").Ree:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "WheelChair"
+}
+
+game:GetService("ReplicatedStorage").Ree:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "Bike"
+}
+
+game:GetService("ReplicatedStorage").Ree:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+wait(0.1)
+local args = {
+    [1] = "GirlBike"
+}
+
+game:GetService("ReplicatedStorage").Ree:FindFirstChild("28NoMoto28rVehicle28s"):FireServer(unpack(args))
+
+end
